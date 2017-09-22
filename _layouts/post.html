@@ -17,10 +17,6 @@ comments: true
     {{ content }}
   </div>
 
-  <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
-
   {% if site.comments != false and page.comments != false %}
     <div class="post-comments" itemprop="comment">
       {% include custom_comments_provider.html %}
