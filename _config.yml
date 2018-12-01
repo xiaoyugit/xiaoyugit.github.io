@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: boring stuffs
+title: Yu's boring notes
 email: xiaoyu.seu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
@@ -34,6 +34,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
+comments: true
 
 jekyll-archives:
   enabled:
